@@ -1,12 +1,18 @@
 
 
 /* register */
+body{
+  background:url("/images/bg2.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .signup_page {
   width: 30%;
-  
   border-radius: 5px;
   font-family: fantasy;
-  color: #4de738;
+  color: #095227;
   margin: auto;
 }
 
@@ -76,4 +82,8 @@
   margin: .5rem;
   position: absolute;
   transform: translateX(+25%);
+}
+button:hover{
+  cursor: grab;
+  
 }
